@@ -16,4 +16,11 @@ public interface LickDogService {
       String queryStudentByName(String name);
 
 
+      /**
+       * 删除学生信息
+       *
+       * @param name
+       * @return
+       */
+      String deleteStudentByName(String name);
 }

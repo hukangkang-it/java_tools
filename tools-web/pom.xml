@@ -44,10 +44,10 @@
             <version>${project.version}</version>
         </dependency>
 
-        <!--mybatis-->
         <dependency>
-            <groupId>org.mybatis.spring.boot</groupId>
-            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>tools-service</artifactId>
+            <version>${project.version}</version>
         </dependency>
 
     </dependencies>
