@@ -13,7 +13,7 @@ public interface LickDogService {
        * @param name
        * @return
        */
-      Boolean queryStutendByName(String name);
+      String queryStudentByName(String name);
 
 
 }
