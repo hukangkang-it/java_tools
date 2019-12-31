@@ -31,4 +31,12 @@ public class QueryStudentByNameTest extends SpringBootTestBaseInfo {
     }
 
 
+    /**
+     * 新增学生信息
+     */
+    @Test
+    public void addStudentByName(){
+        String result = lickDogService.addStudentByName("胡康康");
+        System.out.println(result);
+    }
 }

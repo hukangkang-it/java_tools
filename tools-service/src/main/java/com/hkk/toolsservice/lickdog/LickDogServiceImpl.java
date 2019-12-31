@@ -1,12 +1,18 @@
 package com.hkk.toolsservice.lickdog;
 
 import com.hkk.toolsapi.lickdog.LickDogService;
+import com.hkk.toolsmanage.lickdog.LickDogBiz;
+import org.slf4j.MDC;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 
 @Service
 public class LickDogServiceImpl implements LickDogService {
 
+
+    @Autowired
+    private LickDogBiz lickDogBiz;
 
     /**
      * 根据姓名查询学生信息
@@ -34,5 +40,12 @@ public class LickDogServiceImpl implements LickDogService {
             return "恭喜你，删除成功";
         }
         return "调用接口失败";
+    }
+
+    @Override
+    public String addStudentByName(String name){
+        lickDogBiz.addStudent();
+
+        return  "";
     }
 }

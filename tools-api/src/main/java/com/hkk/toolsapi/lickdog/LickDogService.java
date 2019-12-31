@@ -23,4 +23,13 @@ public interface LickDogService {
        * @return
        */
       String deleteStudentByName(String name);
+
+
+      /**
+       * 新增学生信息
+       *
+       * @param name
+       * @return
+       */
+      String addStudentByName(String name);
 }

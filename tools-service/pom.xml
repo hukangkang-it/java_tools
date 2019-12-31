@@ -27,6 +27,12 @@
             <version>${project.version}</version>
         </dependency>
 
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>tools-biz</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
     </dependencies>
 
 

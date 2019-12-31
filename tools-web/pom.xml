@@ -36,8 +36,6 @@
             <artifactId>testng</artifactId>
         </dependency>
 
-
-
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>tools-api</artifactId>
@@ -48,6 +46,23 @@
             <groupId>${project.groupId}</groupId>
             <artifactId>tools-service</artifactId>
             <version>${project.version}</version>
+        </dependency>
+
+        <!--mysql的启动 -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.zaxxer</groupId>
+            <artifactId>HikariCP</artifactId>
+        </dependency>
+
+        <!--mybatis-->
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
         </dependency>
 
     </dependencies>
