@@ -1,4 +1,4 @@
-package array;
+package com.hkk.toolsweb.array;
 
 public class Demo09ArrayMax {
 

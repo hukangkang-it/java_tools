@@ -1,4 +1,4 @@
-package array;
+package com.hkk.toolsweb.array;
 /*
 数组的索引编号从0开始，一直到数组长度-1为止
 如果访问数组元素的时候，索引编号不存在，那么将会发生

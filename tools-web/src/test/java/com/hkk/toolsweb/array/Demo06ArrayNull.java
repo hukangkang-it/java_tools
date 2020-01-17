@@ -1,4 +1,4 @@
-package array;
+package com.hkk.toolsweb.array;
 /*
 所有引用类型变量，都可以赋值为一个null值。但是代表其中什么都没有
 

@@ -1,4 +1,4 @@
-package array;
+package com.hkk.toolsweb.array;
 /*
 直接打印数组名称：得到的是数组对应的内存地址哈希值
 二进制：01

@@ -1,4 +1,4 @@
-package array;
+package com.hkk.toolsweb.array;
 /*
 遍历数组：就是对数组当中的每一个元素进行逐一、挨个儿处理。默认的处理方式就是打印输出
 

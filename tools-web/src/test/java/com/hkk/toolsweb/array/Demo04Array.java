@@ -1,4 +1,4 @@
-package array;
+package com.hkk.toolsweb.array;
 /*
 使用动态初始化数组的时候，其中的元素将会自动拥有一个默认值。规则如下：
 如果是整数类型，那么默认为0；

@@ -1,13 +1,17 @@
 package com.hkk.toolsservice.lickdog;
 
 import com.hkk.toolsapi.lickdog.LickDogService;
+import com.hkk.toolsapi.lickdog.request.AddStudentReqDTO;
+import com.hkk.toolsmanage.Result;
 import com.hkk.toolsmanage.lickdog.LickDogBiz;
-import org.slf4j.MDC;
+import lombok.extern.slf4j.Slf4j;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 
 @Service
+@Slf4j
 public class LickDogServiceImpl implements LickDogService {
 
 
@@ -47,5 +51,12 @@ public class LickDogServiceImpl implements LickDogService {
         lickDogBiz.addStudent();
 
         return  "";
+    }
+
+    @Override
+    public Result<Boolean> addStudent(AddStudentReqDTO addStudentReqDTO) {
+
+
+        return null;
     }
 }

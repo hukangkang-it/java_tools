@@ -1,4 +1,4 @@
-package array;
+package com.hkk.toolsweb.array;
 /*
 数组可以作为方法的参数。
 当调用方法的时候，向方法的小括号进行传参，传递进去的其实是数组的地址值

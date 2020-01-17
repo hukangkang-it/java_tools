@@ -1,4 +1,4 @@
-package array;
+package com.hkk.toolsweb.array;
 /*
 数组的概念：是一种容器，可以同时存放多个数据值
 

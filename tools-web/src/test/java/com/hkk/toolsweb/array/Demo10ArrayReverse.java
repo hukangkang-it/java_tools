@@ -1,4 +1,4 @@
-package array;
+package com.hkk.toolsweb.array;
 /*
 数组元素反转；
 本来的数组：[1, 2, 3, 4]

@@ -1,5 +1,9 @@
 package com.hkk.toolsapi.lickdog;
 
+
+import com.hkk.toolsapi.lickdog.request.AddStudentReqDTO;
+import com.hkk.toolsmanage.Result;
+
 /**
  *
  * 主要用来调用赵融璋的数据库
@@ -32,4 +36,13 @@ public interface LickDogService {
        * @return
        */
       String addStudentByName(String name);
+
+      /**
+       * 新增学生基本信息
+       *
+       * @param addStudentReqDTO
+       * @return
+       */
+      Result<Boolean> addStudent(AddStudentReqDTO addStudentReqDTO);
+
 }

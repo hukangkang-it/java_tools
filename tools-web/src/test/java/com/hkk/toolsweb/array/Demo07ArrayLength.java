@@ -1,4 +1,4 @@
-package array;
+package com.hkk.toolsweb.array;
 /*
 如何获取数组的长度，格式如下：
 数组名称.length
