@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="writeMapper.StudentMapper" >
+    <resultMap id="BaseResultMap" type="com.hkk.toolsdal.model.StudentDo" >
+<!--        <result column="ID" property="id" jdbcType="INTEGER" />-->
+        <result column="StudentName" property="studentName" jdbcType="VARCHAR" />
+        <result column="Sex" property="sex" jdbcType="VARCHAR" />
+        <result column="Age" property="age" jdbcType="VARCHAR" />
+        <result column="BirthDate" property="birthDate" jdbcType="VARCHAR" />
+        <result column="EntranceDate" property="entranceDate" jdbcType="VARCHAR" />
+        <result column="Phone" property="phone" jdbcType="VARCHAR" />
+        <result column="Address" property="address" jdbcType="VARCHAR" />
+        <result column="TeacherName" property="teacherName" jdbcType="VARCHAR" />
+        <result column="TeacherPhone" property="teacherPhone" jdbcType="VARCHAR" />
+
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        ID,
+        Student_NAME,
+        SEX,
+        AGE,
+        BIRTH_DATE,
+        ENTRANCE_DATE,
+        PHONE,
+        ADDRESS,
+        TEACHER_NAME,
+        TEACHER_PHONE,
+        UPDATED_BY,
+        CREATED_BY,
+        UPDATED_AT,
+        CREATED_AT
+    </sql>
+
+    <insert id ="insert" parameterType="com.hkk.toolsdal.model.StudentDo">
+        INSERT INTO user_base_info (
+        Student_NAME,
+        SEX,
+        AGE,
+        BIRTH_DATE,
+        ENTRANCE_DATE,
+        PHONE,
+        ADDRESS,
+        TEACHER_NAME,
+        TEACHER_PHONE,
+        UPDATED_BY,
+        CREATED_BY,
+        UPDATED_AT,
+        CREATED_AT
+        )
+        VALUES
+        (
+        #{studentName,jdbcType=VARCHAR},
+        #{sex,jdbcType=VARCHAR},
+        #{age,jdbcType=VARCHAR},
+        #{birthDate,jdbcType=VARCHAR},
+        #{entranceDate,jdbcType=VARCHAR},
+        #{phone,jdbcType=VARCHAR},
+        #{address,jdbcType=VARCHAR},
+        #{teacherName,jdbcType=VARCHAR},
+        #{teacherPhone,jdbcType=VARCHAR},
+        now(),
+        now()
+        )
+    </insert>
+</mapper>

@@ -1,14 +1,14 @@
-package com.hkk.toolsdal.model;
+package com.hkk.toolsmanage.lickdog;
 
 
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
-@Getter
 @Setter
+@Getter
 @ToString
-public class StudentDo {
+public class LickDogManagerBo {
 
 
     /**
@@ -58,3 +58,6 @@ public class StudentDo {
     private int teacherPhone;
 
 }
+
+
+
