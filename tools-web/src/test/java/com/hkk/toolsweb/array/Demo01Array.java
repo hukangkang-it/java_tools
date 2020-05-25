@@ -42,4 +42,3 @@ public class Demo01Array {
         String[] arrayC = new String[5];
     }
 }
-

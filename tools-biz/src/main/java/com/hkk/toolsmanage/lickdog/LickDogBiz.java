@@ -8,15 +8,13 @@ public class LickDogBiz {
 
 
     @Autowired
-    private LickDogManagerBo lickDogManager;
+    private LickDogManager  lickDogManager;
 
     /**
      * 新增学生信息
-     * @return
      */
-    public Boolean addStudent() {
-
-        return null;
+    public void addStudent() {
+        lickDogManager.addStudent();
     }
 
 }
