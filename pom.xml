@@ -32,7 +32,7 @@
         <lombok.version>1.16.4</lombok.version>
         <testng.version>6.9.9</testng.version>
         <mybatis-spring-boot-starter.version>1.3.0</mybatis-spring-boot-starter.version>
-        <mysql-connector-java.version>5.1.47</mysql-connector-java.version>
+        <mysql-connector-java.version>8.0.16</mysql-connector-java.version>
         <HikariCP.version>2.5.1</HikariCP.version>
         <mybatis-spring-boot-starter.version>1.3.0</mybatis-spring-boot-starter.version>
 
